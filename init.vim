@@ -28,13 +28,10 @@ Plug 'sirver/ultisnips'
 Plug 'scrooloose/nerdtree'
 Plug 'kaicataldo/material.vim'
 Plug 'cormacrelf/vim-colors-github'
-Plug 'vim-python/python-syntax'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'junegunn/goyo.vim'
+Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'townk/vim-autoclose'
 Plug 'itchyny/lightline.vim'
-Plug 'vim-scripts/indentpython.vim'
-Plug 'python-mode/python-mode', { 'for': 'python', 'branch': 'develop' }
 call plug#end()
 
 colorscheme gruvbox
