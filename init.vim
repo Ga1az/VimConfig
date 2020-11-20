@@ -31,6 +31,9 @@ Plug 'cormacrelf/vim-colors-github'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'townk/vim-autoclose'
+Plug 'bronson/vim-trailing-whitespace'
+Plug 'yggdroot/indentline'
+"Plug 'OmniSharp/omnisharp-vim'
 Plug 'itchyny/lightline.vim'
 call plug#end()
 
@@ -51,7 +54,7 @@ let NERDTreeMinimalUI = 1
 let g:nerdtree_open = 0
 map <Leader>p :belowright terminal<CR>
 
-
+noremap <leader>f :Autoformat<CR>
 
 
 
